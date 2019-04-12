@@ -1,6 +1,6 @@
 {
   "name": "react-use-clock-hook",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "react-use-clock-hook",
   "main": "dist/index.js",
   "scripts": {
