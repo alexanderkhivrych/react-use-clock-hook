@@ -21,9 +21,9 @@
     "timer"
   ],
   "dependencies": {
-    "moment": "^2.24.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "moment": ">=2.24.0",
+    "react": ">=16.8.6",
+    "react-dom": ">=16.8.6"
   },
   "peerDependencies": {
     "react": "^16.8.6",

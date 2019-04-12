@@ -13,7 +13,6 @@ const useClock = (format = "DD/MM/YYYY HH:mm:ss", period = 1000) => {
   return {
     time: time.format(format),
     raw: time
-  }
-};
+  }};
 
 export default useClock;
