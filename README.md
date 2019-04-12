@@ -4,6 +4,16 @@
     react-use-clock-hook ⏰
     <br />
   </h1>
+    <sup>
+    <br />
+    <br />
+    <a href="https://www.npmjs.com/package/react-use-clock-hook">
+      <img src="https://img.shields.io/npm/v/react-use-clock-hook.svg" alt="npm package" />
+    </a>
+    <a href="https://www.npmjs.com/package/react-use-clock-hook">
+      <img src="https://img.shields.io/npm/dm/react-use-clock-hook.svg" alt="npm downloads" />
+    </a>
+  </sup>
 </div>
 
 > React Hook for sharing clock logic
