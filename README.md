@@ -1,16 +1,22 @@
-# react-use-clock-hook
+<div align="center">
+  <h1>
+    <br/>
+    react-use-clock-hook ⏰
+    <br />
+  </h1>
+</div>
 
 > React Hook for sharing clock logic
 
 ## Install
 
 ```bash
-with npm
+#With npm
 npm install react-use-clock-hook --save 
 ```
 
 ```bash
-with yarn
+#With yarn
 yarn add react-use-clock-hook
 ```
 
