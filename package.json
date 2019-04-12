@@ -1,0 +1,52 @@
+{
+  "name": "react-use-clock-hook",
+  "version": "1.0.0",
+  "description": "react-use-clock-hook",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderkhivrych/react-use-clock-hook.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "react-hooks",
+    "utils",
+    "lib",
+    "use-clock",
+    "clock",
+    "timer"
+  ],
+  "dependencies": {
+    "moment": "^2.24.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.42",
+    "@babel/preset-env": "^7.0.0-beta.42",
+    "@babel/preset-react": "^7.0.0-beta.42",
+    "babel-loader": "^8.0.5",
+    "parcel-bundler": "^1.6.2",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^3.3.0",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "alexander.khivrych",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexanderkhivrych/react-use-clock-hook/issues"
+  },
+  "homepage": "https://github.com/alexanderkhivrych/react-use-clock-hookreadme"
+}
