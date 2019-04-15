@@ -5,10 +5,14 @@ const useClock = (format = "DD/MM/YYYY HH:mm:ss", period = 1000) => {
   const [time, setTime] = useState(moment());
   
   useEffect(() => {
-    setTimeout(() => {
+    const interval = setInterval(() => {
       setTime(moment());
-    }, period)
-  }, [time]);
+    }, period);
+ 
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
 
   return {
     time: time.format(format),
